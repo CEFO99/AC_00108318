@@ -26,6 +26,6 @@
         mov DX, [BX+SI]
     
     ; Direccionamiento relativo por registro
-        mov	DI, [BX+3h]
+        mov DI, [BX+3h]
 
         int 20h
