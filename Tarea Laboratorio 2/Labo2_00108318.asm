@@ -19,7 +19,7 @@
 
     ; Direccionamiento indirecto por registro
     ; Usamos el registro base como puntero para acceder a la memoria
-        mov	CX, [BX]
+        mov CX, [BX]
 
     ; Direccionamiento indirecto base mas indice 
     ; Usamos el registro base junto con un registro apuntador
